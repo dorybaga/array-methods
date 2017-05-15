@@ -74,3 +74,9 @@ var owesMoney = friends.slice(3, 6);
 
 // monthNameString stores the result of called toString on the array stored at monthNames
 var monthNameString = monthNames.toString();
+
+// favoriteColor stores the index of where the value 'Red' can be found in the colors array
+var favoriteColor = colors.indexOf("Red");
+
+// `favoriteEvenNumber` stores the index of where the value '76' can be found in the `mixedNums` array
+var favoriteEvenNumber = mixedNums.indexOf(76);
