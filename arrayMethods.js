@@ -66,3 +66,9 @@ var sentence = scrambledWords.join(" ");
 // var myFruits stores the result of calling join on the var fruitCollection
 var myFruits = fruitCollection.join(" + ");
 
+// var favoriteFriends stores my favs from friends array ('Jacoby', 'Miko')
+var favoriteFriends = friends.slice(1, 3);
+
+// var owesMoney stores my friends from friends array who owe me $ ('Joseph', 'Kevin', 'Todd C.')
+var owesMoney = friends.slice(3, 6);
+
