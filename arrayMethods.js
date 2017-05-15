@@ -17,27 +17,41 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 // do your work below!
 
-
+// push first and last name into empty array
 var nameArray = [];
 nameArray.push("dory", "baga");
 
+// push all missing #s up to and including 10 to genericNumberArray
 genericNumberArray.push(6, 7, 8, 9, 10);
 
+// remove last element in colors variable; store return value in popResult
 var popResult = colors.pop();
 
+// reverse scrambledWords; reverse phoneNumber
 scrambledWords.reverse();
 phoneNumber.reverse();
 
+// remove first element in orderQueue var; store return value in nextOrder var
 var nextOrder = orderQueue.shift();
 
+// sort the mixedNums array; sort the mixedWords array
 mixedNums.sort();
 mixedWords.sort();
 
+// if not fruit remove from fruitCollection var; notFruit var stores items removed from fruitCollection var
 var notFruit = fruitCollection.splice(1,3);
+
+// gemBox has only gems in array
 gemBox.splice(5, 7, "Sapphire");
+
+// make var upToTen have a length of 10 (in order)
 upToTen.splice(2, 0, 3, 4, 5, 6, 7, 8);
+
+// brownOnly has only the word "brown" & a length of 5
+// ["brown", "brown", "brown", "brown", "brown"]
 brownOnly.splice(1, 5, "brown", "brown", "brown");
 
-
+// orderedValues array has all numbers 1-10 and length of 10, stored in var orderedValuesNewLength
+var orderedValuesNewLength = orderedValues.unshift(1, 2, 3);
 
 
