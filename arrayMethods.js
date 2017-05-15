@@ -59,3 +59,10 @@ var randomThingsArray = genericNumberArray.concat(colors);
 
 // updatedOrders joins orderQueue and 2 other orders you define
 var updatedOrders = orderQueue.concat({ takeOut: 'Birthday Cake' }, { takeOut: 'Cookies' });
+
+// var sentence stores the result of calling join on the var scrambledWords
+var sentence = scrambledWords.join(" ");
+
+// var myFruits stores the result of calling join on the var fruitCollection
+var myFruits = fruitCollection.join(" + ");
+
