@@ -72,3 +72,5 @@ var favoriteFriends = friends.slice(1, 3);
 // var owesMoney stores my friends from friends array who owe me $ ('Joseph', 'Kevin', 'Todd C.')
 var owesMoney = friends.slice(3, 6);
 
+// monthNameString stores the result of called toString on the array stored at monthNames
+var monthNameString = monthNames.toString();
