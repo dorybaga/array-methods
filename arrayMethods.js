@@ -54,4 +54,8 @@ brownOnly.splice(1, 5, "brown", "brown", "brown");
 // orderedValues array has all numbers 1-10 and length of 10, stored in var orderedValuesNewLength
 var orderedValuesNewLength = orderedValues.unshift(1, 2, 3);
 
+// randomThingsArray is the result of joining genericNumberArray and the colors array
+var randomThingsArray = genericNumberArray.concat(colors);
 
+// updatedOrders joins orderQueue and 2 other orders you define
+var updatedOrders = orderQueue.concat({ takeOut: 'Birthday Cake' }, { takeOut: 'Cookies' });
