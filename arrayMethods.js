@@ -80,3 +80,8 @@ var favoriteColor = colors.indexOf("Red");
 
 // `favoriteEvenNumber` stores the index of where the value '76' can be found in the `mixedNums` array
 var favoriteEvenNumber = mixedNums.indexOf(76);
+
+// `lastNine` stores the index of the last 9 that can be found in the `bulkNumbers` array
+// `lastFive` stores the index of the last number 5 that can be found in the `bulkNumbers` array
+var lastNine = bulkNumbers.lastIndexOf(9);
+var lastFive = bulkNumbers.lastIndexOf(5);
